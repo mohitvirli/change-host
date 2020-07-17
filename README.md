@@ -103,13 +103,13 @@ Since everyone must be having a different kind of etc/hosts, I have made the scr
     ```
 * Adding a new IP without an alias
     ```sh
-    change_host 10.10.10.10
+    change-host 10.10.10.10
     ```
 * (Recommended) Adding a new IP with an Alias so that it can be used later.
     ```sh
-    change_host 10.10.10.10 newRedirect
+    change-host 10.10.10.10 newRedirect
     ```
-    *Later you can use it like this.* `change_host newRedirect`
+    *Later you can use it like this.* `change-host newRedirect`
 
 > Note: This uses sudo internally cause you know how etc/host is. So you would be asked to enter the password. 
 
